@@ -1,7 +1,5 @@
-# alifly-repulojegy
-
 # Repülőjegy lefoglaló oldal
 
-## Kovács Alex - AUTP2E
+### Kovács Alex - AUTP2E
 
-## Discord: elekssz#8884
+### Discord: elekssz#8884
