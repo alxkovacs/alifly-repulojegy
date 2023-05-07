@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "alifly-repulojegy": {
+      "hosting": {
+        "alifly-repulojegy-project": [
+          "alifly-repulojegy"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "alifly-repulojegy"
+  }
+}
