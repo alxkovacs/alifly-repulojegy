@@ -6,16 +6,14 @@
 
 ### 2023.05.01.
 
-### proba
+### 2 komplex lekérdezés
 
-### proba2
+getPurchasesByUserId(userId: string) {
+    //console.log(userId);
+    return this.afs.collection<Purchase>(this.collectionName, ref => ref.where('userID', '==', userId).orderBy('price', 'desc')).valueChanges();
+  }
 
-### proba3
-
-### proba4
-
-### proba5
-
-### proba6
-
-### proba7
+getPriceyPurchase(userId: string) {
+    //console.log(userId);
+    return this.afs.collection<Purchase>(this.collectionName, ref => ref.where('userID', '==', userId).orderBy('price', 'desc').limit(1)).valueChanges();
+  }
